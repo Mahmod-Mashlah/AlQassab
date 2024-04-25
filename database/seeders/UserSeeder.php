@@ -14,7 +14,7 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         //php artisan make:seeder UserSeeder
-        User::factory()->count(25)->create();
+        // User::factory()->count(25)->create();
 
         // php artisan db:seed --class=UserSeeder
 
